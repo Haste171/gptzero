@@ -8,10 +8,12 @@ To use the GPTZero API, you'll need to have an API key. If you don't have an API
 
 Once you have your API key, you can install the `gptzero` package using pip:
 
+### Installing package
 ```python
 pip install gptzero
 ```
 
+### Basics
 ```python
 from gptzero import GPTZeroAPI
 
