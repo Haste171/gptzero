@@ -1,0 +1,1 @@
+from gptzero.api import GPTZeroAPI
