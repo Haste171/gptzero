@@ -6,14 +6,9 @@ This is a Python wrapper for the GPTZero API, which allows you to generate natur
 
 To use the GPTZero API, you'll need to have an API key. If you don't have an API key yet, you can sign up for one on the [GPTZero website](https://gptzero.me/).
 
-Once you have your API key, you can install the `gptzero` package using pip:
+Once you have your API key, you can install the `gptzero` package and use it.
 
-### Installing package
-```python
-pip install gptzero
-```
 
-### Basics
 ```python
 from gptzero import GPTZeroAPI
 
