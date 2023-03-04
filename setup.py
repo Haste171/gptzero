@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gptzero',
-    version='0.1.0',
+    version='0.1.1',
     description='Python wrapper for the GPTZero API',
     author='David Peterson',
     author_email='dapanon@proton.me',
@@ -20,4 +20,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
     ],
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
 )
+
