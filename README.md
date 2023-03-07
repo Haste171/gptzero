@@ -2,6 +2,8 @@
 
 This is a Python wrapper for the GPTZero API, which allows you to generate natural language text using GPT technology. This wrapper provides a simple way to interact with the GPTZero API using Python.
 
+Featured on https://gptzero.me/docs
+
 ## Getting started
 
 To use the GPTZero API, you'll need to have an API key. If you don't have an API key yet, you can sign up for one on the [GPTZero website](https://gptzero.me/).
