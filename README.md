@@ -1,7 +1,4 @@
 # GPTZero API Wrapper
-![PyPi](https://github.com/Haste171/gptzero/actions/workflows/pypi_upload.yml/badge.svg)  
-![Build](https://github.com/Haste171/gptzero/actions/workflows/build.yml/badge.svg)  
-  
 [![PyPi version](https://badgen.net/pypi/v/gptzero/)](https://pypi.org/project/gptzero)  
 [![Latest release](https://badgen.net/github/release/Haste171/gptzero)](https://github.com/Haste171/gptzero/releases)  
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Haste171/gptzero/graphs/commit-activity)  
