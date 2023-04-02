@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
   
 
-This is a Python wrapper for the GPTZero API, which allows you to generate natural language text using GPT technology. This wrapper provides a simple way to interact with the GPTZero API using Python.
+This wrapper provides a simple way to interact with the GPTZero API using Python.
 
 Featured on https://gptzero.me/docs
 
