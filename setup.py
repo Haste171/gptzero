@@ -4,10 +4,9 @@ setup(
     name='gptzero-async',
     version='0.1.1',
     description='Asynchronous Python wrapper for the GPTZero API',
-    authors=[
-        {"David Peterson", "dapanon@proton.me"},
-        {"Leo Ghanem", "crspy8687@gmail.com"}
-    ],
+
+    author="David Peterson, Leo Ghanem",
+    author_email="dapanon@proton.me, crspy8687@gmail.com",
     url='https://github.com/Haste171/gptzero/tree/async',
     packages=find_packages(),
     install_requires=['aiohttp'],
