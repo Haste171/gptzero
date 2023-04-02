@@ -1,5 +1,5 @@
 import os
-import requests
+import aiohttp
 
 
 class GPTZeroAPI:
@@ -7,7 +7,9 @@ class GPTZeroAPI:
         self.api_key = api_key
         self.base_url = 'https://api.gptzero.me/v2/predict'
 
-    def text_predict(self, document):
+
+
+    async def text_predict(self, session: aiohttp.ClientSession, document):
         url = f'{self.base_url}/text'
         headers = {
             'accept': 'application/json',
@@ -17,10 +19,10 @@ class GPTZeroAPI:
         data = {
             'document': document
         }
-        response = requests.post(url, headers=headers, json=data)
-        return response.json()
+        async with session.get(url, headers=headers, json=data, ssl=False) as response:
+            return await response.json()
 
-    def file_predict(self, file_path):
+    async def file_predict(self, session: aiohttp.ClientSession, file_path):
         url = f'{self.base_url}/files'
         headers = {
             'accept': 'application/json',
@@ -29,5 +31,5 @@ class GPTZeroAPI:
         files = {
             'files': (os.path.basename(file_path), open(file_path, 'rb'))
         }
-        response = requests.post(url, headers=headers, files=files)
-        return response.json()
+        async with session.get(url, headers=headers, files=files, ssl=False) as response:
+            return await response.json()
