@@ -34,6 +34,7 @@ class GPTZeroAPI:
         response = requests.post(url, headers=headers, files=files)
         return response.json()
 
+
 class AsyncGPTZeroAPI:
     def __init__(self, api_key):
         self.api_key = api_key

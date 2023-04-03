@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gptzero',
-    version='0.1.1',
+    version='0.1.2',
     description='Asynchronous Python wrapper for the GPTZero API',
 
     author="David Peterson, Leo Ghanem",
