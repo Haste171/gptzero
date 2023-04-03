@@ -40,7 +40,7 @@ print(response)
 
 ## Asynchronous Usage
 ```python
-from gptzero import GPTZeroAPI
+from gptzero import AsyncGPTZeroAPI
 
 api_key = 'your_api_key_here' # Your API Key from https://gptzero.me
 gptzero_api = GPTZeroAPI(api_key)
