@@ -43,7 +43,7 @@ print(response)
 from gptzero import AsyncGPTZeroAPI
 
 api_key = 'your_api_key_here' # Your API Key from https://gptzero.me
-gptzero_api = GPTZeroAPI(api_key)
+gptzero_api = AsyncGPTZeroAPI(api_key)
 ```
 
 ### Making a text prediction asynchronously
