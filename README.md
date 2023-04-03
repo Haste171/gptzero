@@ -50,7 +50,7 @@ gptzero_api = GPTZeroAPI(api_key)
 ```python
 document = 'Hello world!'
 async with aiohttp.ClientSession() as session:
-  response = gptzero_api.text_predict(document)
+  response = gptzero_api.text_predict(session, document)
 print(response)
 ```
 
@@ -58,6 +58,6 @@ print(response)
 ```python
 file_path = 'path/to/your/file'
 async with aiohttp.ClientSession() as session:
-  response = gptzero_api.file_predict(file_path)
+  response = gptzero_api.file_predict(session, file_path)
 print(response)
 ```
