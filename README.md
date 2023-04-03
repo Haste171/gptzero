@@ -37,3 +37,27 @@ file_path = 'path/to/your/file'
 response = gptzero_api.file_predict(file_path)
 print(response)
 ```
+
+## Asynchronous Usage
+```python
+from gptzero import GPTZeroAPI
+
+api_key = 'your_api_key_here' # Your API Key from https://gptzero.me
+gptzero_api = GPTZeroAPI(api_key)
+```
+
+### Making a text prediction asynchronously
+```python
+document = 'Hello world!'
+async with aiohttp.ClientSession() as session:
+  response = gptzero_api.text_predict(document)
+print(response)
+```
+
+### Making a file prediction asynchronously
+```python
+file_path = 'path/to/your/file'
+async with aiohttp.ClientSession() as session:
+  response = gptzero_api.file_predict(file_path)
+print(response)
+```
