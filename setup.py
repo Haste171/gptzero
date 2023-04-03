@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gptzero-async',
+    name='gptzero',
     version='0.1.1',
     description='Asynchronous Python wrapper for the GPTZero API',
 
