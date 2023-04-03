@@ -7,7 +7,7 @@ setup(
 
     author="David Peterson, Leo Ghanem",
     author_email="dapanon@proton.me, crspy8687@gmail.com",
-    url='https://github.com/Haste171/gptzero/tree/async',
+    url='https://github.com/Haste171/gptzero/',
     packages=find_packages(),
     install_requires=['aiohttp'],
     classifiers=[
