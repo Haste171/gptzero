@@ -61,3 +61,6 @@ async with aiohttp.ClientSession() as session:
   response = gptzero_api.file_predict(session, file_path)
 print(response)
 ```
+
+## TO-DO
+Add dynamic parser for json responses
