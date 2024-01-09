@@ -1,7 +1,6 @@
 # GPTZero API Wrapper
 [![PyPi version](https://badgen.net/pypi/v/gptzero/)](https://pypi.org/project/gptzero)  
-[![Latest release](https://badgen.net/github/release/Haste171/gptzero)](https://github.com/Haste171/gptzero/releases)  
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Haste171/gptzero/graphs/commit-activity)  
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Haste171/gptzero/graphs/commit-activity)  
 [![GitHub license](https://img.shields.io/github/license/Haste171/gptzero)](https://github.com/Haste171/gptzero/blob/master/LICENSE)  
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
   
